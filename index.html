@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .data-picker {
+            width: 450px;
+            margin: 0px auto;
+            min-height: 80vh;
+        }
+
+        .date-place {
+            width: 450px;
+            padding: 8px;
+            background-color: yellow;
+            font-size: xx-large;
+        }
+
+        .days {
+            padding: 5px;
+            border: 2px solid black;
+            margin-top: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .first {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            gap: 90px;
+        }
+
+        .second {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            gap: 45px;
+        }
+
+        .dec {
+            font-weight: bold;
+        }
+
+        .tablee {
+            border: 1px solid black;
+            width: 450px;
+            margin-top: 4px;
+        }
+
+        td {
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="data-picker">
+        <input type="date" class="date-place">
+        <label for="date-place"></label>
+        <div class="days">
+            <div class="first">
+                <img src="left.svg" alt="">
+                <p class="dec">December 2022</p>
+                <img src="right.svg" alt="">
+            </div>
+            <div class="second">
+                <h1>S</h1>
+                <h1>M</h1>
+                <h1>T</h1>
+                <h1>W</h1>
+                <h1>T</h1>
+                <h1>F</h1>
+                <h1>S</h1>
+            </div>
+        </div>
+        <div class="table">
+            <table class="tablee" border="2" cellspacing="0px">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                </tr>
+
+
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
